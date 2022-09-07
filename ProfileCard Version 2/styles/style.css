@@ -1,0 +1,100 @@
+.wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    width: 25rem;
+    height: 35em;
+    border: 5px solid black;
+    border-radius: 3em;
+    box-shadow: 0 0 10px black;
+    background-image: url('../assets/vakantiefoto1.jpg');
+    background-size: 500px;
+    transition: 1s;
+}
+
+h1{
+    color: white;
+    width: 80%;
+    font-family: Verdana;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #003399;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+.list{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    list-style-type: none;
+    } 
+
+button{
+    color: #FEFEFF;
+    margin-top:1em;
+    width: 100%;
+    font-family: Verdana;
+    font-weight: 700;
+    border: 2px solid #00B5E2;
+    background: #00B5E2;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border: 2px solid black;
+    height: 2.5em;
+    transition: 0.15s;
+    padding: none;
+}
+
+button:hover{
+    border: 3px solid #00B5E2;
+    background-color: aliceblue;
+    color: #00B5e2;
+}
+
+li{
+    text-align: left;
+    padding-left: 1em;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    color: black;
+    font-family: verdana;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-color: aliceblue;
+    left: 0;
+    opacity: 0;
+    border: 2px solid #00B5E2;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    z-index: 1;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown-menu li{
+    padding: 1em;
+    font-family: verdana;
+    font-weight: 400;
+}
+
+.dropdown.active > #link + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
