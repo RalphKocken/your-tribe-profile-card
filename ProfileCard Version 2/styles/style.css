@@ -9,13 +9,12 @@
     flex-direction: column;
     margin-top: 6%;
     width: 25rem;
-    height: 35em;
+    height: 35rem;
     border: 5px solid black;
     border-radius: 3em;
     box-shadow: 0 0 10px black;
     background-image: url('../assets/vakantiefoto1.jpg');
     background-size: 500px;
-    transition: 1s;
 }
 
 h1{

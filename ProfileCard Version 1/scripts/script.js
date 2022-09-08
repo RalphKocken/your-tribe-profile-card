@@ -16,26 +16,26 @@ document.addEventListener("click", e => {
 
 function change(){
     var image = document.getElementById('vakantiefoto');
-    image.src = "styles/assets/vakantiefoto1.jpg"
+    image.src = "assets/vakantiefoto1.jpg"
   }
 
 
 function change1(){
     var image = document.getElementById('vakantiefoto');
-    image.src = "styles/assets/alkmaar.jpg"
+    image.src = "assets/alkmaar.jpg"
   }
 
 function change2(){
   var image = document.getElementById('vakantiefoto');
-  image.src = "styles/assets/mountainbiken.jpg"
+  image.src = "assets/mountainbiken.jpg"
 }
 
 function change3(){
   var image = document.getElementById('vakantiefoto');
-  image.src = "styles/assets/koken.jpg"
+  image.src = "assets/koken.jpg"
 }
 
 function change4(){
   var image = document.getElementById('vakantiefoto');
-  image.src = "styles/assets/front-end.jpg"
+  image.src = "assets/front-end.jpg"
 }

@@ -9,7 +9,7 @@
     border: 5px solid black;
     border-radius: 3em;
     box-shadow: 0 0 10px gray;
-    background: url(assets/background.jpg);
+    background: url('../assets/background.jpg');
     background-size: 1100px;
 }
 
