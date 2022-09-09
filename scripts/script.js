@@ -26,7 +26,7 @@ function change1(){
 
 function change2(){
     var image = document.getElementById('card');
-    image.style.backgroundImage = "url(assets/mountainbiken.jpg)"
+    image.style.backgroundImage = "url(assets/zaalvoetbal.jpg)"
   }
 
 function change3(){
@@ -36,5 +36,5 @@ function change3(){
 
 function change4(){
     var image = document.getElementById('card');
-    image.style.backgroundImage = "url(assets/front-end.jpg)"
+    image.style.backgroundImage = "url(assets/levensweg.jpg)"
   }
