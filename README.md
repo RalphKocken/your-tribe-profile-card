@@ -5,4 +5,8 @@ Dit project is bedoeld om mezelf voor te stellen aan de tribe. Met wat creatief 
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/106448490/189317178-8ed05188-2c65-4086-bcde-05792e011d49.png)
 
+Live Preview
+
+https://ralphkocken.github.io/your-tribe-profile-card/
+
 Dit project is bedacht in mijn brein 🧠, en uitgewerkt in HTML, CSS en Javascript.
