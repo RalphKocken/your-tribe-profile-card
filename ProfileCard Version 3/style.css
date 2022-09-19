@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    width: 40em;
+    border-top-right-radius: 1em;
+    box-shadow: 5px 5px 5px -2px #888;
+}
+
+.navbar{
+    display: flex;
+    width: 40em;
+    height: 2.5em;
+}
+
+.title{
+    height: 100%;
+    width: 20em;
+    border-bottom: 1px solid black;
+}
+
+.name{
+    width: 15em;
+    height: 10em;
+    position: absolute;
+    margin-top: -0.6em;
+    margin-left: 2em;
+}
+
+.buttonlist{
+    display: flex;
+    background-color: white;
+    width: 20em;
+    height: 100%;
+}
+
+.buttonlist > button{
+    font-size: 14px;
+    font-weight: 700;
+    height: 100%;
+    width: 6em;
+    border: 1px solid black;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    box-shadow: 5px 0 5px -2px #888;
+}
+
+.buttonlist > button:hover{
+    color: grey;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    height: 30em;
+    background-color: white;
+}
+
+#textbox{
+    background-color: #E8FbE1;
+    width: 20em;
+    height: calc(32em + 1px);
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 0.5em;
+    box-shadow: 5px 5px 5px -2px #888;
+}
+
+#textbox > section{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+    width: 20em;
+}
+
+#textbox > section > header{
+    width: 80%;
+    margin-left: 10%;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 0.4em;
+    box-shadow: 0px 1px 5px grey; 
+    margin-top: 20px;
+}
+
+#textbox > section > p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#afbeelding{
+    background-color: #E8FbE1;
+    
+}
+
+#afbeelding > img{
+    width: calc(20em - 1px);
+    height: 32em;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px -2px #888;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
+
+#AboutMe{
+    position: absolute;
+}
+
+#Hobbys{
+    position: absolute;
+    display: none;
+}
+
+#Skills{
+    position: absolute;
+    display: none;
+}
+
+#Toekomst{
+    position: absolute;
+    display: none;
+}
+
+#btn1{
+    background-color: #E8FbE1;
+    margin-left: 0;
+}
+
+#btn2{
+    background-color: #ECE3FC;
+}
+
+#btn3{
+    background-color: #FCEBF6;
+}
+
+#btn4{
+    background-color: #C8D3B8;
+    
+}   
