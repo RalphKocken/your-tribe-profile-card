@@ -125,6 +125,7 @@ body{
 #btn1{
     background-color: #E8FbE1;
     margin-left: 0;
+    border-bottom: none;
 }
 
 #btn2{
