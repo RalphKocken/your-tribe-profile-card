@@ -30,7 +30,6 @@ function toggleText1(){
  
 
 
-
   function toggleText2(){
     document.getElementById("AboutMe").style.display="none"
     document.getElementById("Hobbys").style.display="block"

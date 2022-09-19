@@ -39,6 +39,7 @@ body{
 }
 
 .buttonlist > button{
+    font-family: 'Poppins',sans-serif;
     font-size: 14px;
     font-weight: 700;
     height: 100%;
@@ -80,21 +81,17 @@ body{
 #textbox > section > header{
     width: 80%;
     margin-left: 10%;
-    background-color: aqua;
     text-align: center;
-    border-radius: 0.4em;
-    box-shadow: 0px 1px 5px grey; 
-    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 0.4em; 
+    margin-top: 15px;
 }
 
 #textbox > section > p{
     width: 80%;
+    font-weight: 300;
+    margin: 0;
     margin-left: 10%;
-}
-
-#afbeelding{
-    background-color: #E8FbE1;
-    
 }
 
 #afbeelding > img{
