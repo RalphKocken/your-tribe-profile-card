@@ -8,6 +8,6 @@ Dit project is bedoeld om mezelf voor te stellen aan de tribe. Met wat creatief 
 
 Live Preview
 
-
+https://ralphkocken.github.io/your-tribe-profile-card/
 
 Dit project is bedacht in mijn brein 🧠, en uitgewerkt in HTML, CSS en Javascript.
