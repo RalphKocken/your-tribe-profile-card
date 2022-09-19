@@ -25,7 +25,7 @@ function toggleText1(){
     document.getElementById("btn4").style.borderBottom="1px solid black"
 
     var image = document.getElementById("foto");
-      image.src = "vakantiefoto1.jpg"
+      image.src = "assets/vakantiefoto1.jpg"
   }
  
 
@@ -45,7 +45,7 @@ function toggleText1(){
     document.getElementById("btn4").style.borderBottom="1px solid black"
 
     var image = document.getElementById("foto");
-      image.src = "voetbal.jpg"
+      image.src = "assets/voetbal.jpg"
   }
 
 
@@ -63,7 +63,7 @@ function toggleText1(){
     document.getElementById("btn4").style.borderBottom="1px solid black"
 
     var image = document.getElementById("foto");
-      image.src = "koken.jpg"
+      image.src = "assets/koken.jpg"
   }
 
 
@@ -81,6 +81,6 @@ function toggleText1(){
     document.getElementById("btn4").style.borderBottom="none"
 
     var image = document.getElementById("foto");
-      image.src = "alkmaar.jpg"
+      image.src = "assets/alkmaar.jpg"
   }
   
